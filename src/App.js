@@ -5,6 +5,7 @@ import Index from './examples/example-2/Index';
 import { ThemeContextProvider } from './examples/example-3/themeContext';
 import Header from './examples/example-3/Header';
 import Content from './examples/example-3/Content';
+import TodoList from './examples/example-4/TodoList';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Content/>
       <Form/>
       <Index/>
+      <TodoList/>
     </div>
     </ThemeContextProvider>
   );
